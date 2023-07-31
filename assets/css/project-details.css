@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+    background-image: url(https://raw.githubusercontent.com/Aceship/Arknight-Images/main/factions/logo_rhodes.png);
+    background-size: contain;
+    background-repeat:initial;
+}
+
+/* project details */
+
+.project .projectDetails {
+  border: 0px solid;
+  border-radius: 15px;
+  margin: 90px 150px 90px 150px;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 8px 1px #746969
+}
+ 
+.project .projectDetails .projectContent {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+@media only screen and (max-width: 900px) {
+  .item-collapse {
+      display: none;
+    }
+  
+  #barsmenu {
+      display: block;
+    }
+}

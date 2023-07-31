@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #dbdbdb;
+    padding: 0 40px;
+}
+
+nav img {
+    margin-right: 50px;
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left ul li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left a:hover {
+    color:rgb(3, 97, 204);
+    font-weight: bold;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-right a:hover {
+    color:aqua;
+    font-weight: bold;
+    background-color: white;
+}
+
+.dropdown-nav-container {
+    font-size: 18px;
+    list-style-type: none;
+    display: none;
+    cursor: pointer;
+}
+
+.dropdown-nav-container a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;  
+}
+
+.dropdown-contact {
+    border-radius: 10px;
+}
+
+.dropdown-nav-container .dropdown-active {
+    text-decoration: none;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;  
+}
+
+#barsmenu {
+    display: none;
+}
+
+button {
+    color: white;
+    background-color: #181823; 
+    border-radius: .4em; 
+    border: none; 
+    padding: .8em 1.2em;
+    cursor: pointer;
+
+    transition: background-color .3s ease-in-out;
+}
+
+.button:hover{
+    color: aqua;
+    background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .item-collapse {
+        display: none;
+    }
+    
+    #barsmenu {
+        display: block;
+    }
+
+}

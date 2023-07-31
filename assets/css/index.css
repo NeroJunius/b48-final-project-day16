@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+    background: url(https://raw.githubusercontent.com/NeroJunius/b48-day9/main/images/background.jpg) fixed center;
+    background-repeat:no-repeat;
+}
+
+#container {
+    margin: 32px auto; 
+    background-color: white;
+    width: 80%; 
+    padding: 1.5em 3em;
+    border-radius: .4em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.content{   
+    max-inline-size: 90%;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.container .items1{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 48px;
+}
+
+.container .items1 p {
+    line-height: 0;
+}
+
+.container .items1 i {
+    margin-left: .75em;
+}
+
+.container .item1 a:hover {
+    color: aqua;
+}
+
+button {
+    color: white;
+    background-color: #181823; 
+    border-radius: .4em; 
+    border: none; 
+    padding: .8em 1.2em;
+    cursor: pointer;
+
+    transition: background-color .3s ease-in-out;
+}
+
+.button:hover{
+    color: aqua;
+    background-color: white;
+}
+
+.medsos{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 48px;
+    gap: 1em;
+}
+
+.icon {
+    margin: 5px;
+    width: 65px;
+    color: rgb(12, 12, 12);
+    padding: 12px 12px auto;
+    justify-content: center;
+    font-size: 40px; 
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: rgb(3, 0, 189);
+  }
+
+.right {
+    width: 100%;
+}
+
+.card-group {
+    width: 100%; 
+    border-radius: .4em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding-bottom: .5em;
+    line-height: .5em;
+}
+
+.card-img {
+    width: 300px; 
+    height: 340px; 
+    object-fit: cover;
+    border-radius: .4em .4em 0 0;
+}
+
+i {
+    color: #181823;
+    transition: color .3s ease-in-out;
+}
+
+i:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* project page */
+
+#project {
+    margin-top: 2em;
+    margin-bottom: 64px;
+    padding: 1em 2em;
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    justify-items: center;
+    max-width: fit-content;
+  }
+  
+ 
+@media only screen and (max-width: 900px) {
+    
+    .item-collapse {
+        display: none;
+      } 
+
+    .dropdown-nav button {
+        display: block;
+    }
+    
+    #barsmenu {
+        display: block;
+    }
+    
+    .card-container {
+        width: 100%;
+    }
+  
+    #container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .content {
+        max-inline-size: none;
+    }
+
+    .medsos {
+        margin: 0;
+        justify-content: center;
+    }
+
+    #card {
+        margin: 60px auto 0 auto;
+    }
+
+    #project {
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        width: 43%;
+    }
+
+    .submitButton {
+        margin-left: 0%;
+        align-self: center;
+        width: 100%;
+      }
+    
+}
+  

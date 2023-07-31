@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+    background: url(https://raw.githubusercontent.com/Aceship/Arknight-Images/main/factions/logo_rhodes.png) fixed center;
+    background-repeat:initial;
+}
+    
+/* Contact me styling */
+form {
+    width: 350px;
+    margin: 50px auto;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, 
+select, 
+textarea {
+    width: 100%;
+    box-shadow: 2px 4px 8px 1px#636262;
+    background-color: #DBE4C6;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.submitButton {
+    width: auto;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 230px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: white;
+    color:aqua;
+  }
+
+@media only screen and (max-width: 900px) {
+    .item-collapse {
+        display: none;
+      }   
+    
+    .dropdown-nav button {
+        display: block;
+    }
+    
+    #barsmenu {
+        display: block;
+    }
+
+    form {
+        max-inline-size: 70%;
+    }
+
+    .submitButton {
+        margin-left: 0%;
+        align-self: center;
+        width: 100%;
+      }
+    
+}

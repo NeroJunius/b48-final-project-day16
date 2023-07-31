@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+    background: url(https://raw.githubusercontent.com/Aceship/Arknight-Images/main/factions/logo_rhodes.png) fixed center;
+    background-repeat:initial;
+}
+
+.header {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.cards-position {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.cards {
+    margin: 10px;
+    margin-bottom: 1em;
+    max-width: 23em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 0 5px gray;
+    position:relative;
+}
+
+.cards img {
+    padding: 15px;
+    width: 21em;
+    height: 17em;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.quote {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify
+}
+
+.rating {
+    margin: 15px;
+    /* margin-left:10px; */
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+}
+
+.star {
+    margin: 20px;
+    margin-top: 50px;
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+}
+
+.user {
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    /* align-content; */
+    font-weight: bolder;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    
+}
+
+.container-rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rate {
+    margin: 2em;
+}
+
+.rate-btn {
+    margin-top: 5px;
+    padding: 1vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(157, 157, 157);
+    cursor: pointer;
+}
+
+.rate-btn:hover {
+    background-color: rgb(234, 234, 234);
+}
+
